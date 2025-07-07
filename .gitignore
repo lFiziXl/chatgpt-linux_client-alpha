@@ -1,0 +1,24 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+.env/
+__pycache__/
+*.pyc
+
+# Файлы настроек среды
+.env
+
+# Локальные файлы
+last_session.txt
+
+# Базы данных
+*.db
+*.sqlite3
+
+# Логи
+*.log
+
+# IDE
+.vscode/
+.idea/
