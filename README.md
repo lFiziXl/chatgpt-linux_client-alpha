@@ -26,16 +26,19 @@ The project is designed for easy use of the OpenAI API and local storage of chat
       cd chatgpt-linux-client-alpha
 
 2. Создайте и активируйте виртуальное окружение / Create and activate a virtual environment:
+      ```bash
       python -m venv venv
       source venv/bin/activate  # Linux/macOS
       venv\Scripts\activate     # Windows
 
-3. Установите зависимости / Install dependencies:
+4. Установите зависимости / Install dependencies:
+      ```bash
       pip install -r requirements.txt
 
-4. Создайте файл .env по образцу .env.example и заполните ключ API OpenAI / Create a .env file based on .env.example and fill in your OpenAI API key.
+6. Создайте файл .env по образцу .env.example и заполните ключ API OpenAI / Create a .env file based on .env.example and fill in your OpenAI API key.
 
-5. Запуск / Running:
+7. Запуск / Running:
+      ```bash
       python main.py
 
 Спасибо за интерес к проекту! Если хочешь помочь — открывай issues и pull requests.
